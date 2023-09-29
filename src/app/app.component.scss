@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    background-color: rgba(173, 91, 91, 0.5);
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.actions{
+    display: flex;
+    gap: 2em;
+}
+
+.texts{
+   margin: 0;
+}
+
+.actions button{
+    padding: 10px;
+    background-color: rgb(148, 87, 87);
+    color: white;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.actions button:hover{
+    background-color: rgba(103, 90, 223, 0.8);
+}
+
+.actions input{
+    border-radius: 5px;
+    border: 1px solid  rgba(103, 90, 223, 0.8);
+}
+
+.actions input:focus{
+    outline: none;
+    border: 3px solid blue;
+}
